@@ -1,0 +1,10 @@
+<Project>
+	<Import Condition=" '$(EAZFUSCATOR_NET_HOME)' != '' and Exists('$(EAZFUSCATOR_NET_HOME)\Integration\MSBuild\Eazfuscator.NET.targets') " Project="$(EAZFUSCATOR_NET_HOME)\Integration\MSBuild\Eazfuscator.NET.targets" />
+	
+	<PropertyGroup>
+		<EazfuscatorIntegration>MSBuild</EazfuscatorIntegration>
+		<EazfuscatorActiveConfiguration>Release</EazfuscatorActiveConfiguration>
+		<!--<EazfuscatorCompatibilityVersion>2022.1</EazfuscatorCompatibilityVersion>-->
+	</PropertyGroup>
+	
+</Project>

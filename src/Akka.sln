@@ -58,6 +58,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build", "Build", "{10C5B1E8
 		..\build.fsx = ..\build.fsx
 		Directory.Build.props = Directory.Build.props
 		NuGet.Config = NuGet.Config
+		protect.props = protect.props
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Contrib", "Contrib", "{588C1513-FAB6-42C3-B6FC-3485F13620CF}"
@@ -77,8 +78,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		.editorconfig = .editorconfig
 		..\.gitignore = ..\.gitignore
 		Akka.sln.DotSettings = Akka.sln.DotSettings
-		NuGet.Config = NuGet.Config
 		Directory.Build.props = Directory.Build.props
+		NuGet.Config = NuGet.Config
 		..\README.md = ..\README.md
 		..\RELEASE_NOTES.md = ..\RELEASE_NOTES.md
 	EndProjectSection
@@ -273,11 +274,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SampleDestination", "exampl
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SampleSender", "examples\Cluster\PublishSubscribe\SampleSender\SampleSender.csproj", "{A5392607-15B8-4869-BB20-FAAD4D09E08B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersistenceExample", "examples\PersistenceExample\PersistenceExample.csproj", "{4022147A-4F95-4A04-BE09-01B7952BBDD9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PersistenceExample", "examples\PersistenceExample\PersistenceExample.csproj", "{4022147A-4F95-4A04-BE09-01B7952BBDD9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Akka.Persistence.Query.InMemory", "contrib\persistence\Akka.Persistence.Query.InMemory\Akka.Persistence.Query.InMemory.csproj", "{A310BC3F-065A-4D0D-BC6A-9E444E96F10F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Akka.Persistence.Query.InMemory", "contrib\persistence\Akka.Persistence.Query.InMemory\Akka.Persistence.Query.InMemory.csproj", "{A310BC3F-065A-4D0D-BC6A-9E444E96F10F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Akka.Persistence.Query.InMemory.Tests", "contrib\persistence\Akka.Persistence.Query.InMemory.Tests\Akka.Persistence.Query.InMemory.Tests.csproj", "{407DD6E2-F274-4773-BA5E-43541D5C8D0F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Akka.Persistence.Query.InMemory.Tests", "contrib\persistence\Akka.Persistence.Query.InMemory.Tests\Akka.Persistence.Query.InMemory.Tests.csproj", "{407DD6E2-F274-4773-BA5E-43541D5C8D0F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
